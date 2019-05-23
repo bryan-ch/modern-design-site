@@ -1,0 +1,22 @@
+{
+  "name": "css-advance",
+  "version": "1.0.0",
+  "description": "this little repo contains the advanced css code of the course",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryan-ch/modern-design-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryan-ch/modern-design-site/issues"
+  },
+  "homepage": "https://github.com/bryan-ch/modern-design-site#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
